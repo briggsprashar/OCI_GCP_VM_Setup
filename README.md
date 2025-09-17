@@ -1,7 +1,7 @@
-# OCI & GCP basic Virtual Machine setup 
-*Created from a .edu account and selecting the bare minimum resources/options for least billing.*
+# OCI & GCP basic Virtual Machine (VM) setup 
+*Created from a .edu account and by selecting the bare minimum resources/options for least billing.*
 
-## Video Walkthrough 
+## **Video Walkthrough**
 
 #### OCI - Oracle Cloud Infastructure
 
@@ -25,38 +25,89 @@
     </a>
   </div>
 
-## Prerequisites
+## **Prerequisites**
 - Access to GCP and OCI cloud consoles
 - $ Credits (and educational affiliation to get credits)  
 - Basic and least-expensive/free-tier/smallest VM configurations
 - Compliance to all healthcare related regulations, especially with PHI/PII data
 
+## **VM configuration and creation steps**
+
 ## Oracle Cloud Infrastructure (OCI)
-
-### VM Creation Steps
+### Configuration
 1. **Compartment**: `briggsp`  
-2. **Networking**: VCN with default internet connectivity ?? 
-3. **Shape**: `VM.Standard.E2.1.Micro`  ??
-4. **Image**: Ubuntu  
-5. **Public IP**: Ephemeral  ??
-6. **Boot Volume**: Default minimal
+3. **Shape**: `VM.Standard.E2.1.Micro`
+4. **Image**: `Ubuntu`  
+5. **Public IP**: `Ephemeral IPv4`
+2. **Networking**: `Virtual Cloud Network (VCN) with default security configuration`
+6. **Boot Volume**: `Default minimal`
 
-**Screenshot**  x collection x
-![OCI Create](filename: images/oci-create.png)
+### VM creation in Images
+Steps 1 to 19 (Click on an image to view the full size image)
+
+| 1 ACCOUNT [![Account](OCI/1-acct-provisioned.png)](OCI/1-acct-provisioned.png) | 2 Navigation [![Navigation](OCI/2-navigation-options.png)](OCI/2-navigation-options.png) |
+|--------------------------------------------------|--------------------------------------------------|
+| 3 Create INSTANCE [![Instance](OCI/3-instance-page.png)](OCI/3-instance-page.png) | 4 BASIC INFO [![Basic Info](OCI/4-basic-info.png)](OCI/4-basic-info.png) |
+| 5 Select IMAGE [![Image](OCI/5-image.png)](OCI/5-image.png) | 6 UBUNTU [![Ubuntu](OCI/5.1-images.png)](OCI/5.1-images.png) |
+| 7 Image Name [![Image name](OCI/5.2-images.png)](OCI/5.2-images.png) | 8 Select SHAPE [![Shape](OCI/6-shape.png)](OCI/6-shape.png) |
+| 9 All Shapes [![All Shapes](OCI/6.1-shape.png)](OCI/6.1-shape.png) | 10 Shape Name [![Shape name](OCI/6.2-shape.png)](OCI/6.2-shape.png) |
+| 11 SECURITY [![Security](OCI/7-security.png)](OCI/7-security.png) | 12 NETWORKING [![Network](OCI/8-networking.png)](OCI/8-networking.png) |
+| 13 SSH [![SSH](OCI/8.1-networking.png)](OCI/8.1-networking.png) | 14 BOOT Volume [![Boot Volume](OCI/9-boot-volume.png)](OCI/9-boot-volume.png) |
+| 15 REVIEW [![Review](OCI/10-review.png)](OCI/10-review.png) | 16 Work Requests [![Work requests](OCI/11-work-requests.png)](OCI/11-work-requests.png) |
+| 17 Instances List [![Instances](OCI/12-terminate.png)](OCI/12-terminate.png) | 18 Navigation [![Navigation](OCI/13-navbar-infrastructure.png)](OCI/13-navbar-infrastructure.png) |
+| 19 DASHBOARD [![Dashboard](OCI/14-dashboard.png)](OCI/14-dashboard.png) | 
 
 ---
 
-## Google Cloud Platform (GCP)
+## Google Cloud Platform (GCP) 
 
-### VM Creation Steps
+### Configuration
 1. Navigate to: **Console → Compute Engine → Create Instance**  
-2. **Region/Zone**: `us-east4` (Northern Virginia)  
-3. **Machine Type**: `e2-micro` (2 vCPU, 1 core, 1 GB memory)  
-4. **Image**: Ubuntu LTS  
-5. **Boot Disk**: Default minimal  
-6. **Network**: Default VPC with ephemeral public IP  
+2. **Region/Zone**: `us-east (Columbus)` / `Default`
+3. **Machine Type**: `(General Purpose) e2-micro` (2 vCPU, 1 core, 1 GB memory)  
+4. **Image**: `Ubuntu LTS`  
+5. **Boot Disk**: `Default minimal`  
+6. **Network**: `Default Ephemeral IPv4`
+7. **CostMonthly Estimate**: `$7.11` with variable cost for data protection with snapshot schedule
 
+### VM creation in Images
+Steps 1 to 14 (Click on an image to view the full size image)
 
+| 1 ACCOUNT [![Account](GCP\1_ACCOUNT.png)](GCP\1_ACCOUNT.png) | 2 VM Instance [![VM Instance](GCP\2_VM-Instances.png)](GCP\2_VM-Instances.png) |
+|--------------------------------------------------|--------------------------------------------------|
+| 3 Create INSTANCE [![Create Instance](GCP\3_Create-Instance.png)](GCP\3_Create-Instance.png) | 4 Machine Configuration [![Machine Configuration](GCP\4_Machine-Configuration.png)](GCP\4_Machine-Configuration.png) |
+| 5 Cost Optimized View [![Image](GCP\5_Cost-Optimized.png)](GCP\5_Cost-Optimized.png) | 6 OS STORAGE [![OS Storage](GCP\6_OS-Storage.png)](GCP\6_OS-Storage.png) |
+| 7 DATA PROTECTION [![Data Protection](GCP\7_Data-Protection.png)](GCP\7_Data-Protection.png) | 8 NETWORKING [![NETWORKING](GCP\8_Networking.png)](GCP\8_Networking.png) |
+| 9 OBSERVABILITY [![Observability](GCP\9_Observability.png)](GCP\9_Observability.png) | 10 SECURITY [![Security](GCP\10_Security.png)](GCP\10_Security.png) |
+| 11 Advanced [![Advanced](GCP\11_Advanced.png)](GCP\11_Advanced.png) | 12 VM Created [![VM Created](GCP\12_VM-created.png)](GCP\12_VM-created.png) |
+| 13 OBSERVABILITY [![Observability](GCP\13_Observability.png)](GCP\13_Observability.png) | 14 OVERVIEW [![Overview](GCP\14_Overview.png)](GCP\14_Overview.png) |
 
+## Reflections
 
+### Key Similarities in VM setup
+- Education credits for free usage
+- Custom VM configuration
+- VM Creation steps similar in nature and flow
+- Region, Zone and VM specification setup
+- Customization 
+- Differentiate between ephemeral and static IP's
+- Offer private default private networks with internet access
+- Global datacenter presence supporting multi-region deployments
+- Auto scaling capabilities
+
+### Key Differences in VM setup
+- OCI has a technical VM setup than GCP.
+- OCI provides for creating variables like subnet if not auto-populated; GCP does not offer this, suggesting these variables get resolved automatically in the backend
+- OCI containers are tenancy-name/root; GCP container is autogenerated in the backend
+- GCP offers a cost estimate and configuration snapshot throughout the VM creation process; OCI does not
+- GCP is more user friendly with a better UI and UX compared to OCI
+- GCP overview and dashboard view, both very comprehensive
+- GCP has a configurable observability feature offering resources usage from various angles
+- SSH keys and configuration is auto generated in GCP. In OCI it is manually done with SSH kep downloaded manually
+- GCP has more OS variety than GCP
+
+## Discussion
+
+OCI appears to provide lower cost VM instances (reduces costs). GCP offers a wider global reach and strong analytics capabilities and other bells and whistles for AI capabilities. GCP has a better UI and
+UX. GCP has more analytics capabilities. GC seems to offer more customization and scalability options. It is also easier to migrate VM instances into GCP from other platforms. GCP seems more user friendly. Overall, between OCI and GCP, GCP seems a better option with the AI and bigdata capabilities and opportunities.
 
