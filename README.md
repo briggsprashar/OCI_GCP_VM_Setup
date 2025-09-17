@@ -34,11 +34,11 @@
 ## Oracle Cloud Infrastructure (OCI)
 
 ### VM Creation Steps
-1. **Compartment**: `pquimbo2025`  
-2. **Networking**: VCN with default internet connectivity  
-3. **Shape**: `VM.Standard.E2.1.Micro`  
+1. **Compartment**: `briggsp`  
+2. **Networking**: VCN with default internet connectivity ?? 
+3. **Shape**: `VM.Standard.E2.1.Micro`  ??
 4. **Image**: Ubuntu  
-5. **Public IP**: Ephemeral  
+5. **Public IP**: Ephemeral  ??
 6. **Boot Volume**: Default minimal
 
 **Screenshot**  
