@@ -18,7 +18,7 @@
 
 <div>
     <a href="https://www.loom.com/share/0c5531756ef945c08d0fd9cecb2ffd26">
-      <p>Creating a Virtual Machine on Google Cloud - Watch Video</p>
+      <p>Creating a Virtual Machine on Google Cloud ☁️ - Watch Video</p>
     </a>
     <a href="https://www.loom.com/share/0c5531756ef945c08d0fd9cecb2ffd26">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0c5531756ef945c08d0fd9cecb2ffd26-90ea5b3616f74890-full-play.gif">
