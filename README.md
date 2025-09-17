@@ -24,3 +24,27 @@
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0c5531756ef945c08d0fd9cecb2ffd26-90ea5b3616f74890-full-play.gif">
     </a>
   </div>
+
+## Prerequisites
+- Access to GCP and OCI cloud consoles
+- $ Credits (and educational affiliation to get credits)  
+- Basic and least-expensive/free-tier/smallest VM configurations
+- Compliance to all healthcare related regulations, especially with PHI/PII data
+
+## Oracle Cloud Infrastructure (OCI)
+
+### VM Creation Steps
+1. **Compartment**: `pquimbo2025`  
+2. **Networking**: VCN with default internet connectivity  
+3. **Shape**: `VM.Standard.E2.1.Micro`  
+4. **Image**: Ubuntu  
+5. **Public IP**: Ephemeral  
+6. **Boot Volume**: Default minimal
+
+**Screenshot**  
+![OCI Create](filename: images/oci-create.png)
+
+
+
+
+
