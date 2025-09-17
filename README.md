@@ -41,8 +41,20 @@
 5. **Public IP**: Ephemeral  ??
 6. **Boot Volume**: Default minimal
 
-**Screenshot**  
+**Screenshot**  x collection x
 ![OCI Create](filename: images/oci-create.png)
+
+---
+
+## Google Cloud Platform (GCP)
+
+### VM Creation Steps
+1. Navigate to: **Console → Compute Engine → Create Instance**  
+2. **Region/Zone**: `us-east4` (Northern Virginia)  
+3. **Machine Type**: `e2-micro` (2 vCPU, 1 core, 1 GB memory)  
+4. **Image**: Ubuntu LTS  
+5. **Boot Disk**: Default minimal  
+6. **Network**: Default VPC with ephemeral public IP  
 
 
 
