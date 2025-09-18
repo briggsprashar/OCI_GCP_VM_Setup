@@ -107,6 +107,5 @@ Steps 1 to 14 (Click on an image to view the full size image)
 
 ## Discussion
 
-OCI appears to provide lower cost VM instances (reduces costs). GCP offers a wider global reach and strong analytics capabilities and other bells and whistles for AI capabilities. GCP has a better UI and
-UX. GCP has more analytics capabilities. GC seems to offer more customization and scalability options. It is also easier to migrate VM instances into GCP from other platforms. GCP seems more user friendly. Overall, between OCI and GCP, GCP seems a better option with the AI and bigdata capabilities and opportunities.
+OCI appears to provide lower cost VM instances (reduces costs). GCP offers a wider global reach and strong analytics capabilities and other bells and whistles for AI capabilities. GCP has a better UI and UX. GCP has more analytics capabilities. GC seems to offer more customization and scalability options. It is also easier to migrate VM instances into GCP from other platforms. GCP seems more user friendly. Overall, between OCI and GCP, GCP seems a better option with the AI and bigdata capabilities and opportunities. OCI seems to be a no frills option for cost reduction and for needs that are not that variable in classic industries.  
 
