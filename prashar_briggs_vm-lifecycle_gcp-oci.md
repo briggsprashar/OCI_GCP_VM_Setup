@@ -57,6 +57,13 @@ Steps 1 to 19 (Click on an image to view the full size image)
 | 17 Instances List [![Instances](OCI/12-terminate.png)](OCI/12-terminate.png) | 18 Navigation [![Navigation](OCI/13-navbar-infrastructure.png)](OCI/13-navbar-infrastructure.png) |
 | 19 DASHBOARD [![Dashboard](OCI/14-dashboard.png)](OCI/14-dashboard.png) | 
 
+## OCI VM lifecycle management
+
+| 1 VM-Provisioning [![VM-Provisioning](OCI1/1ociprovisioning.png)](OCI1/1ociprovisioning.png) | 2 VM Created [![VM Created](OCI1/2ocirunningsucceeded.png)](OCI1/2ocirunningsucceeded.png) |
+|--------------------------------------------------|--------------------------------------------------|
+| 3 VM Running [![VM Running](OCI1/3ociinstancesrunning.png)](OCI1/3ociinstancesrunning.png) | 4 VM Stopped [![VM Stopped](OCI1/5stopped.png)](OCI1/5stopped.png)) |
+| 5 VM Terminating [![VM Terminating](OCI1\6ociterminating.png)](OCI1\6ociterminating.png) | 7 VM Terminated [![VM Terminated](OCI1/8oiterminatedinstance.png)](OCI1/8oiterminatedinstance.png) |
+| 7 OCI Resources [![OCI Resources](OCI1\9ocIresourceexplorere.png)](OCI1\9ocIresourceexplorere.png) | 
 ---
 
 ## Google Cloud Platform (GCP) 
@@ -70,7 +77,7 @@ Steps 1 to 19 (Click on an image to view the full size image)
 6. **Network**: `Default Ephemeral IPv4`
 7. **CostMonthly Estimate**: `$7.11` with variable cost for data protection with snapshot schedule
 
-### VM creation in Images
+### GCP VM creation in Images
 Steps 1 to 14 (Click on an image to view the full size image)
 
 | 1 ACCOUNT [![Account](GCP/1_ACCOUNT.png)](GCP/1_ACCOUNT.png) | 2 VM Instance [![VM Instance](GCP/2_VM-Instances.png)](GCP/2_VM-Instances.png) |
@@ -81,6 +88,13 @@ Steps 1 to 14 (Click on an image to view the full size image)
 | 9 OBSERVABILITY [![Observability](GCP/9_Observability.png)](GCP/9_Observability.png) | 10 SECURITY [![Security](GCP/10_Security.png)](GCP/10_Security.png) |
 | 11 Advanced [![Advanced](GCP/11_Advanced.png)](GCP/11_Advanced.png) | 12 VM Created [![VM Created](GCP/12_VM-created.png)](GCP/12_VM-created.png) |
 | 13 OBSERVABILITY [![Observability](GCP/13_Observability.png)](GCP/13_Observability.png) | 14 OVERVIEW [![Overview](GCP/14_Overview.png)](GCP/14_Overview.png) |
+
+## GCP VM lifecycle management
+
+| 1 VM Running [![VM Running](GCP1/2gcprunning.png)](GCP1/2gcprunning.png) | 2 VM Stopped [![VM Stopped](GCP1/4gcpstopped.png)](GCP1/4gcpstopped.png) |
+|--------------------------------------------------|--------------------------------------------------|
+| 3 VM Actions [![VM Actions](GCP1/5gcpdelete.png)](GCP1/5gcpdelete.png) | 4 VM Deleted [![VM Deleted](GCP1/6gcpdeleted.png)](GCP1/6gcpdeleted.png) |
+| 5 Operations List  [![Operations List](GCP1/7gcpoperationfinished.png)](GCP1/7gcpoperationfinished.png) | 6 Overview [![Overview](GCP1/8gcpoverview.png)](GCP1/8gcpoverview.png) |
 
 ## Reflections
 ### Key Similarities in VM setup
