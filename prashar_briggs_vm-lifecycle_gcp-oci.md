@@ -63,7 +63,7 @@ Steps 1 to 19 (Click on an image to view the full size image)
 |--------------------------------------------------|--------------------------------------------------|
 | 3 VM Running [![VM Running](OCI1/3ociinstancesrunning.png)](OCI1/3ociinstancesrunning.png) | 4 VM Stopped [![VM Stopped](OCI1/5stopped.png)](OCI1/5stopped.png)) |
 | 5 VM Terminating [![VM Terminating](OCI1/6ociterminating.png)](OCI1/6ociterminating.png) | 7 VM Terminated [![VM Terminated](OCI1/8oiterminatedinstance.png)](OCI1/8oiterminatedinstance.png) |
-| 7 OCI Resources [![OCI Resources](OCI1\9ocIresourceexplorere.png)](OCI1\9ocIresourceexplorere.png) | 
+| 7 OCI Resources [![OCI Resources](OCI1/9ocIresourceexplorere.png)](OCI1/9ocIresourceexplorere.png) | 
 ---
 
 ## Google Cloud Platform (GCP) 
