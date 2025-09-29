@@ -1,4 +1,4 @@
-# OCI and GCP VM Setup Walkthrough 
+# OCI and GCP VM Setup and lifecycle management walkthrough 
 
 <a href="https://cloud.oracle.com/"> 
       <p>OCI: Oracle Cloud Infrastructure ☁️ website</p>
