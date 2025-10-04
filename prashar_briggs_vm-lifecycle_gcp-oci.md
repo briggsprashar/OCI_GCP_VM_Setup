@@ -5,9 +5,9 @@
 
 ### OCI - Oracle Cloud Infastructure
 
+Creating a Virtual Machine on Oracle Cloud Infrastructure ☁️
 <div>
-  <a style="float: left;">
-  Creating a Virtual Machine on Oracle Cloud Infrastructure ☁️
+  <a style="float: right;">
   </a>
   <a href="https://www.loom.com/share/247f1b94e7df45fabbe65d92f6247c09" style="float: left;" style="float: right;">
   <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/247f1b94e7df45fabbe65d92f6247c09-1d8a737df9869677-full-play.gif" />
@@ -15,10 +15,9 @@
   <div style="clear: both;"></div>
 
 ### GCP - Google Cloud Platform
-
+Creating a Virtual Machine on Google Cloud ☁️
 <div>
-  <a style="float: left;">
-  Creating a Virtual Machine on Google Cloud ☁️
+  <a style="float: right;">
   </a>
   <a href="https://www.loom.com/share/0c5531756ef945c08d0fd9cecb2ffd26" style="float: left;" style="float: right;">
   <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/247f1b94e7df45fabbe65d92f6247c09-1d8a737df9869677-full-play.gif" />
