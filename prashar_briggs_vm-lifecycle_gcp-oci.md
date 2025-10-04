@@ -6,24 +6,25 @@
 ### OCI - Oracle Cloud Infastructure
 
 <div>
-    Creating a Virtual Machine on Oracle Cloud Infrastructure ☁️
-    </p>
-    </a>
-    <a href="https://www.loom.com/share/247f1b94e7df45fabbe65d92f6247c09">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/247f1b94e7df45fabbe65d92f6247c09-1d8a737df9869677-full-play.gif">
-    </a>
-  </div>
+  <a style="float: left;">
+  Creating a Virtual Machine on Oracle Cloud Infrastructure ☁️
+  </a>
+  <a href="https://www.loom.com/share/247f1b94e7df45fabbe65d92f6247c09" style="float: left;" style="float: right;">
+  <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/247f1b94e7df45fabbe65d92f6247c09-1d8a737df9869677-full-play.gif" />
+  </a>
+  <div style="clear: both;"></div>
 
 ### GCP - Google Cloud Platform
 
 <div>
-    Creating a Virtual Machine on Google Cloud ☁️
-    </p>
-    </a>
-    <a href="https://www.loom.com/share/0c5531756ef945c08d0fd9cecb2ffd26">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0c5531756ef945c08d0fd9cecb2ffd26-90ea5b3616f74890-full-play.gif">
-    </a>
-  </div>
+  <a style="float: left;">
+  Creating a Virtual Machine on Google Cloud ☁️
+  </a>
+  <a href="https://www.loom.com/share/0c5531756ef945c08d0fd9cecb2ffd26" style="float: left;" style="float: right;">
+  <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/247f1b94e7df45fabbe65d92f6247c09-1d8a737df9869677-full-play.gif" />
+  </a>
+  <div style="clear: both;"></div>
+
 <br />
 <br />
 <details open>
